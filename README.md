@@ -1,12 +1,12 @@
 #### Autores: Adrián Herrera, Patrick F. Bárcena y Carlos Moreno
 
-#🧠 Deep Q-Learning aplicado a Trading Algorítmico
+# 🧠 Deep Q-Learning aplicado a Trading Algorítmico
 
 Este proyecto implementa un agente de Deep Q-Learning (DQL) para la toma de decisiones en un entorno de trading. El objetivo fue entrenar un modelo que aprende a comprar, vender o mantener posiciones en acciones de Microsoft (MSFT) mediante un proceso de exploración y explotación, y luego comparar su desempeño contra una estrategia tradicional Buy & Hold.
 
 --- 
 
-#🎯 Objetivo
+# 🎯 Objetivo
 
 Desarrollar un agente basado en Reinforcement Learning capaz de maximizar el rendimiento de una inversión a través de decisiones secuenciales, evaluando métricas financieras clave como rendimiento total, volatilidad, drawdown máximo y Sharpe Ratio.
 

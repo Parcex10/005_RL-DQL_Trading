@@ -1,19 +1,27 @@
 #### Autores: Adrián Herrera, Patrick F. Bárcena y Carlos Moreno
 
-🧠 Deep Q-Learning aplicado a Trading Algorítmico
+#🧠 Deep Q-Learning aplicado a Trading Algorítmico
+
 Este proyecto implementa un agente de Deep Q-Learning (DQL) para la toma de decisiones en un entorno de trading. El objetivo fue entrenar un modelo que aprende a comprar, vender o mantener posiciones en acciones de Microsoft (MSFT) mediante un proceso de exploración y explotación, y luego comparar su desempeño contra una estrategia tradicional Buy & Hold.
 
-🎯 Objetivo
+--- 
+
+#🎯 Objetivo
+
 Desarrollar un agente basado en Reinforcement Learning capaz de maximizar el rendimiento de una inversión a través de decisiones secuenciales, evaluando métricas financieras clave como rendimiento total, volatilidad, drawdown máximo y Sharpe Ratio.
 
-🧪 Resumen del Experimento
+---
+
+# 🧪 Resumen del Experimento
 Agente Q-Learning básico: Entrenado con 100 episodios para entender la mecánica del entorno.
 
 Agente Deep Q-Learning (DQL): Versión robusta entrenada con 500 episodios para capturar patrones complejos del mercado.
 
 Comparación: Backtesting del agente en datos reales y contraste contra Buy & Hold.
 
-Resultados Destacados:
+---
+
+# Resultados Destacados:
 
 | Métrica                    | Buy & Hold | DQL          |
 | -------------------------- | ---------- | ------------ |
@@ -22,16 +30,21 @@ Resultados Destacados:
 | Volatilidad Anualizada (%) | 30.12%     | **11.86%**   |
 | Sharpe Ratio               | 1.00       | **8.74**     |
 
-⚙️ Tecnologías Usadas
-Python 3.x
+---
 
-PyTorch (entrenamiento del agente DQL)
+# ⚙️ Tecnologías Usadas
 
-Pandas, NumPy, Matplotlib (análisis y visualización)
+- Python 3.x
 
-Jupyter Notebook (desarrollo y presentación del proyecto)
+- PyTorch (entrenamiento del agente DQL)
 
-🗂️ Estructura del Proyecto:
+- Pandas, NumPy, Matplotlib (análisis y visualización)
+
+- Jupyter Notebook (desarrollo y presentación del proyecto)
+
+--- 
+
+# 🗂️ Estructura del Proyecto:
 
 005_RL-DQL_Trading/
 
@@ -55,16 +68,18 @@ Jupyter Notebook (desarrollo y presentación del proyecto)
 
 └── requirements.txt  # Dependencias necesarias
 
-🚀 Cómo Ejecutar
+---
 
-1️⃣ Clona el repositorio:
+# 🚀 Cómo Ejecutar
+
+- 1️⃣ Clona el repositorio:
 git clone <URL_del_repo>
 cd 005_RL-DQL_Trading
 
-2️⃣ Instala las dependencias:
+- 2️⃣ Instala las dependencias:
 pip install -r requirements.txt
 
-3️⃣ Abre el notebook:
+- 3️⃣ Abre el notebook:
 jupyter notebook notebooks/report.ipynb
 
 
